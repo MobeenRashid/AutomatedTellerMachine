@@ -28,6 +28,7 @@ namespace AutomatedTellerMachine
                       "~/Content/site.css"));
 
             BundleTable.EnableOptimizations = false;
+//            bundles.UseCdn = true;
         }
     }
 }

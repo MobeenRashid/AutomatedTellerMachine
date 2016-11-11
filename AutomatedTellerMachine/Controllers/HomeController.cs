@@ -8,7 +8,6 @@ namespace AutomatedTellerMachine.Controllers
 {
     public class HomeController : Controller
     {
-        [HandleError(View = "DivideByZeroError",ExceptionType = typeof(DivideByZeroException))]
         public ActionResult Index()
         {
             return View();
